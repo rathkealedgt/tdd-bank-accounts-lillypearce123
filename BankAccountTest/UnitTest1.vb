@@ -16,9 +16,9 @@ Imports BankAcounts
         Dim Account2 As New BankAccounts.BankAccount(AccounterHolder, AccounterNumber, Balance, InterestRate)
         Dim account3 As New BankAccounts.BankAccount(AccounterHolder, AccounterNumber, Balance)
 
-        Assert.num(Account1)
-        Assert.num(Account2)
-        Assert.num(account3)
+        Assert.IsNotNull(Account1)
+        Assert.IsNotNull(Account2)
+        Assert.IsNotNull(account3)
     End Sub
 
 End Class
